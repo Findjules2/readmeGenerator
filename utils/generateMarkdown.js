@@ -21,7 +21,16 @@ ${data.description}
 
 * [Usage](#Usage)
 
-*[License](#License)
+* [License](#License)
+
+* [Contributing](#Contributing)
+
+* [Tests](#Tests)
+
+* [Questions](#Questions)
+
+
+
 
 ## Installation
 
@@ -31,11 +40,16 @@ ${data.install}
 
 ## Usage
 ${data.repo}
+
+## License
 ${Usage(data.license)}
+
+## Contributing
+${data.contribute}
 
 ## Questions
 
-<img src="${data.avatar_url}" style='border-radius: 20px' width='40' />
+<img src="${data.avatar_url}" style='border-radius: 20px' width='100' />
 
 If you have any questions about the repo, open an issue or contact [${data.username}](${data.url}) directly at ${data.contactemail}.
 

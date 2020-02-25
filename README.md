@@ -1,7 +1,5 @@
 # readmeGenerator
 
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
-
 Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
 
 ```sh
@@ -25,7 +23,6 @@ The README will be populated with the following:
   * User GitHub profile picture
   * User GitHub email
 
-Following the [common templates for user stories](https:s), we can frame this challenge as follows:
 
 ```
 AS A developer
@@ -35,34 +32,6 @@ I WANT a README generator
 SO THAT I can easily put together a good README for a new project
 ```
 
-Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
-
-## Business Context
-
-When preparing a report for stakeholders, it is important to have up-to-date information about members of the development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
-
-## Minimum Requirements
-
-* Functional, deployed application.
-
-* GitHub repository with a unique name and a README describing project.
-
-* The generated README includes a bio image from the user's GitHub profile.
-
-* The generated README includes the user's email.
-
-* The generated README includes the following sections: 
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
-
-* The generated README includes 1 badge that's specific to the repository.
 
 ```
 GIVEN the developer has a GitHub profile and a repository
@@ -73,20 +42,5 @@ THEN a README for the repo is generated
 ```
 - - -
 
-## Commit Early and Often
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
-
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* An animated GIF demonstrating the app functionality
-
-* The GIF showing process:
+![An animated GIF demonstrating the readmegenerator](./gif/readmesample.gif)
